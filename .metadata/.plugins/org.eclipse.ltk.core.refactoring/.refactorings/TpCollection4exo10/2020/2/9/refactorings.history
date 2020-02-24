@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;treeSet.TreeSet&apos; to &apos;TreeSetTest&apos;&#x0A;- Original project: &apos;TpCollection4exo10&apos;&#x0A;- Original element: &apos;treeSet.TreeSet&apos;&#x0A;- Renamed element: &apos;treeSet.TreeSetTest&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TreeSet&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;treeSet{TreeSet.java[TreeSet" matchStrategy="1" name="TreeSetTest" qualified="false" references="true" similarDeclarations="false" stamp="1582561574376" textual="false" version="1.0"/>
+</session>

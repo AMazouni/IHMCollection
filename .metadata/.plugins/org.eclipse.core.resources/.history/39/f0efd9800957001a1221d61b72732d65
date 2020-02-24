@@ -1,0 +1,31 @@
+package formes;
+
+
+
+public class Rectangle extends Forme {
+
+	Point a;
+	Point c;
+	Double longueur;
+	Double largeur;
+	public Rectangle() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Rectangle(Point a, Point c, Double longueur, Double largeur) {
+		super();
+		this.a = a;
+		this.c = c;
+		this.longueur = longueur;
+		this.largeur = largeur;
+	}
+	public Rectangle(Point a, Point c) {
+		super();
+		this.a = a;
+		this.c = c;
+		this.largeur= Math.abs(a.x-c.x);
+		this.longueur=Math.abs(a.y-c.y);
+	}
+	
+	
+}

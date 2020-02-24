@@ -1,0 +1,14 @@
+package formes;
+
+import java.awt.Point;
+
+public class Triangle extends Forme {
+	Point a;
+	Point b;
+	Point c;
+	public Triangle() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+}

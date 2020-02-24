@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;HashMapTest&apos; to &apos;hashMapTest&apos;&#x0A;- Original project: &apos;TpCollection5ex13-1&apos;&#x0A;- Original element: &apos;TpCollection5ex13-1/src/HashMapTest&apos;&#x0A;- Renamed element: &apos;TpCollection5ex13-1/src/hashMapTest&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;HashMapTest&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;HashMapTest" name="hashMapTest" qualified="false" references="true" stamp="1582563886694" textual="false" version="1.0"/>
+</session>

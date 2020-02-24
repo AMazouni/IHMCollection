@@ -1,0 +1,21 @@
+package lstPoint;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class LstPoint {
+	static List<Point> lstPoint = new ArrayList<Point>();
+
+	public static void ajouteUnPoint(Point point) {
+
+	}
+
+	public static void afficheLesPoints() {
+
+	}
+
+	public static void main(String[] args) {
+     
+		Point a = new Point(5,10);
+	}
+}

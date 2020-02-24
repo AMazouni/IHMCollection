@@ -1,0 +1,6 @@
+package formes;
+
+public class Cercle extends Forme {
+	Point centre;
+
+}

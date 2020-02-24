@@ -1,0 +1,10 @@
+package lstPoint;
+
+import java.util.ArrayList;
+
+import com.sun.tools.javac.util.List;
+
+public class LstPoint {
+static List<Point> lstPoint = new ArrayList<Point>();
+
+}

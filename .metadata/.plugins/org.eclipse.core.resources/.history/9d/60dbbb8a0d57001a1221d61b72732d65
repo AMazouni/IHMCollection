@@ -1,0 +1,27 @@
+package listeDeFormes;
+
+import java.util.ArrayList;
+
+import formes.*;
+
+public class ListeDeFormes {
+	ArrayList<Forme> listeFormes;
+
+	public ListeDeFormes() {
+		super();
+		this.listeFormes = new ArrayList<Forme>();
+	}
+
+	public void ajouteUneForme(char F) {
+		Forme forme;
+		if (F == 'C') {
+     forme = new Cercle();
+		} else if (F == 'T') {
+
+		} else if (F == 'R') {
+
+		} else {
+
+		}
+	}
+}

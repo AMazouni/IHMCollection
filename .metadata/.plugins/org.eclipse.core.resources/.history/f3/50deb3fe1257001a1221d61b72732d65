@@ -1,0 +1,16 @@
+package faireDesListesDeFormes;
+
+
+
+import java.util.Scanner;
+
+import listeDeFormes.ListeDeFormes;
+
+public class FaireDesListesDeFormes {
+	public static void main(String[] args) {
+    ListeDeFormes liste = new ListeDeFormes();
+    Scanner input = new Scanner(System.in);
+    
+		
+	}
+}

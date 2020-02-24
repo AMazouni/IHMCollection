@@ -1,0 +1,64 @@
+package testInterfaceList;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class TestInterfaceList {
+	public static void main(String[] args) {
+// création d'une liste de String
+		List<String> liste = new ArrayList<String>();
+// ajout d'éléments à cette liste
+		liste.add("un");
+		liste.add("deux");
+
+		liste.add("trois");
+		liste.add(1, "avant deux");
+		liste.set(3, "TROIS");
+		liste.remove(3);
+// création d'un listIterator sur cette liste
+		ListIterator<String> it = liste.listIterator();
+// affichage de la premiere liste avec un iterator
+		System.out.println("---Affichage de la premiere liste---");
+		while (it.hasNext()) {
+// on affiche chaque élément de la liste
+			String element = it.next();
+			
+			System.out.println(element+it.nextIndex());
+		}
+		System.out.println("---Affichage de la deuxieme liste----");
+		List<String> liste2 = new ArrayList<String>();
+// ajout d'éléments à cette liste
+		liste2.add("un");
+		liste2.add("deux");
+		liste2.add("trois");
+// création d'un listIterator sur cette liste
+		ListIterator<String> itt = liste2.listIterator();
+		while (itt.hasNext()) {
+// on ajoute un élément supplémentaire après chaque
+// élément de la liste
+			String element = itt.next();
+			itt.add(element + " et demi");
+		}
+// vérification du résultat avec la boucle for-each
+		for (String s : liste2) {
+			System.out.println(s);
+		}
+		System.out.println("--------------------------------------------");
+	    afficher(liste);
+	    System.out.println();
+	    System.out.println("--------------------------------------------");
+	    afficher(liste2);
+	    System.out.println();
+		System.out.println("------------------Size----------------------");
+		System.out.println("Liste 1 : "+liste.size()+" | Liste 2 : "+liste2.size());
+		System.out.println("---Affichage de la sous liste crée à partir de la deuxième liste de index : 2 à 4 ----");
+		afficher(liste2.subList(2, 4));
+	}
+
+	
+public static void afficher (List<String> liste) {
+ liste.stream().map(e -> "["+liste.indexOf(e)+"] ="+e+" ").forEach(System.out::print);
+ 
+}
+}

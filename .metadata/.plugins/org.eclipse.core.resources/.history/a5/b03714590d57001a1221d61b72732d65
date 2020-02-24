@@ -1,0 +1,18 @@
+package listeDeFormes;
+
+import java.util.ArrayList;
+
+import formes.Forme;
+
+public class ListeDeFormes {
+	 ArrayList<Forme> listeFormes ;
+
+	public ListeDeFormes() {
+		super();
+		this.listeFormes = new ArrayList<Forme>();
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

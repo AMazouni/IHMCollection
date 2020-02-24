@@ -1,0 +1,32 @@
+package listeDeFormes;
+
+import java.util.ArrayList;
+
+import formes.*;
+
+public class ListeDeFormes {
+	ArrayList<Forme> listeFormes;
+
+	public ListeDeFormes() {
+		super();
+		this.listeFormes = new ArrayList<Forme>();
+	}
+
+	public void ajouteUneForme(char F) {
+		Forme forme;
+		if (F == 'C') {
+			forme = new Cercle();
+		} else if (F == 'T') {
+			forme = new Triangle();
+		} else if (F == 'R') {
+			forme = new Rectangle();
+		} else {
+			System.out.println("Erreur parametre " + F + " inconnu");
+		}
+	}
+	public void afficherLesFormes() {
+		for (int i = 0 ; i< this.listeFormes.size() ;i++) {
+			
+		}
+	}
+}

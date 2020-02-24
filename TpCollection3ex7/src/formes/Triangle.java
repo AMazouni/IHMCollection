@@ -1,0 +1,28 @@
+package formes;
+
+
+
+public class Triangle extends Forme {
+	Point a;
+	Point b;
+	Point c;
+
+	public Triangle() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Triangle(Point a, Point b, Point c) {
+		super();
+		this.a = a;
+		this.b = b;
+		this.c = c;
+	}
+
+	@Override
+	public String toString() {
+		return "Triangle [Point A=" + a + ", Point B=" + b + ", Point C=" + c + "]";
+	}
+	
+
+}

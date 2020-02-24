@@ -1,0 +1,14 @@
+package faireDesListesDeFormes;
+
+import com.sun.java_cup.internal.runtime.Scanner;
+
+import formes.*;
+import listeDeFormes.*;
+
+public class FaireDesListesDeFormes {
+	public static void main(String[] args) {
+    ListeDeFormes liste = new ListeDeFormes();
+    Scanner input = new Scanner(System.in);
+		
+	}
+}

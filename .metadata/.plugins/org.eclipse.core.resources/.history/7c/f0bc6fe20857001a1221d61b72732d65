@@ -1,0 +1,13 @@
+package formes;
+
+
+
+public class Cercle extends Forme {
+	Point centre;
+	Double rayon;
+	
+	public Cercle() {
+		super();
+	}
+
+}

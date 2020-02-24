@@ -1,0 +1,8 @@
+package listeDeFormes;
+
+public class ListeDeFormes {
+
+	public static void main(String[] args) {
+
+	}
+}
